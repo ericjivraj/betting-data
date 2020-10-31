@@ -1,0 +1,114 @@
+html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+p, label, footer {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  padding: 5px 0;
+}
+
+body {
+  background-color: #FFA500;
+}
+
+table, th, td {
+  border: 2px solid black;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  margin: 50px auto;
+}
+
+header {
+  background-color: #fff;
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.1);
+  padding: 10px 0;
+}
+
+main.branch {
+  margin: 50px auto;
+  width: 80%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  display: block;
+}
+
+main>div {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.1);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+div.details {
+  text-align: left;
+  font-size: 1.2em;
+}
+
+div.details p {
+  margin: 20px 0;
+}
+
+div.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.buttons button {
+  margin: 10px 15px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.2);
+  font-size: 1.2em;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: 0.2s;
+}
+
+div.buttons button:hover {
+  background-color: #ff4500;
+  color: #fff;
+}
+
+div.buttons button:first-of-type {
+  margin-left: 0px;
+}
+
+footer {
+  background-color: #fff;
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.1);
+  padding: 10px 0px;
+}
