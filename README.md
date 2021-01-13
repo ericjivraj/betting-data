@@ -6,3 +6,6 @@
 ## How to run it?
  Running the command <b>mvn spring-boot:run</b> should run the application which you can access by going to <b>localhost:8080</b>
 
+## Test
+Test 123
+Test 245
